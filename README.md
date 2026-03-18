@@ -3,7 +3,7 @@
 Provisions a Linux virtual machine on Azure with networking, security, and a bootstrapped Nginx web server. Built as part of a structured Cloud & DevOps learning path.
 
 ---
-![Architecture](./docs/architecture.png)
+![Architecture](./docs/architecture.svg)
 
 ## What This Builds
 
