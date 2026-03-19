@@ -4,7 +4,7 @@ Deploys a React application on an Azure Linux VM using Terraform. The entire set
 
 ---
 
-![Architecture](./docs/azure-react-app.drawio)
+![Architecture](./docs/reareact-app-vm.svg)
 
 ---
 
