@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="RswHaADCQX9cSyfcw2ak">
+    <mxGraphModel dx="1564" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VIowppfUMyqaFoo3780U-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1F3864;" value="React App VM — Azure Architecture" vertex="1">
+          <mxGeometry height="40" width="760" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-2" parent="1" style="shape=mxgraph.azure2.internet;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=1;fontSize=12;" value="Internet" vertex="1">
+          <mxGeometry height="60" width="60" x="530" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#0078D4;strokeWidth=2;verticalAlign=top;spacingTop=0;dashed=1;" value="" vertex="1">
+          <mxGeometry height="580" width="1000" x="80" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#0078D4;" value="Azure Subscription" vertex="1">
+          <mxGeometry height="30" width="200" x="90" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;verticalAlign=top;dashed=1;" value="" vertex="1">
+          <mxGeometry height="520" width="940" x="110" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#7D4F00;" value="Resource Group — react-app-rg (West US 3)" vertex="1">
+          <mxGeometry height="25" width="400" x="120" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-7" parent="1" style="shape=mxgraph.azure2.resource_group;html=1;pointerEvents=1;dashed=0;fillColor=#7D4F00;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="510" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;verticalAlign=top;dashed=1;" value="" vertex="1">
+          <mxGeometry height="300" width="900" x="130" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#2E6B2E;" value="Virtual Network — react-app-vnet (10.0.0.0/16)" vertex="1">
+          <mxGeometry height="25" width="420" x="140" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-10" parent="1" style="shape=mxgraph.azure2.virtual_network;html=1;pointerEvents=1;dashed=0;fillColor=#2E6B2E;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="555" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;verticalAlign=top;dashed=0;" value="" vertex="1">
+          <mxGeometry height="240" width="860" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#6B1A1A;" value="Subnet — react-app-subnet (10.0.1.0/24)" vertex="1">
+          <mxGeometry height="22" width="360" x="160" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-13" parent="1" style="shape=mxgraph.azure2.network_security_group;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=0;fontSize=10;" value="NSG&#xa;react-app-nsg&#xa;&#xa;Port 80 — Open to all&#xa;Port 22 — Your IP only" vertex="1">
+          <mxGeometry height="60" width="60" x="180" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-14" parent="1" style="shape=mxgraph.azure2.public_ip_addresses;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=0;fontSize=10;" value="Public IP&#xa;react-app-pip&#xa;Static / Standard SKU" vertex="1">
+          <mxGeometry height="60" width="60" x="380" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-15" parent="1" style="shape=mxgraph.azure2.network_interface;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=0;fontSize=10;" value="NIC&#xa;react-app-nic&#xa;Private IP: Dynamic" vertex="1">
+          <mxGeometry height="60" width="60" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-16" parent="1" style="shape=mxgraph.azure2.virtual_machine;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=0;fontSize=10;" value="Linux VM&#xa;react-app-vm&#xa;Ubuntu 22.04 LTS&#xa;Standard_D2s_v3&#xa;&#xa;react-admin (SSH key)" vertex="1">
+          <mxGeometry height="70" width="70" x="780" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-17" parent="1" style="shape=mxgraph.azure2.disk;html=1;pointerEvents=1;dashed=0;fillColor=#0078D4;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontStyle=0;fontSize=10;" value="OS Disk&#xa;Standard LRS" vertex="1">
+          <mxGeometry height="60" width="60" x="880" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;" value="userdata.sh on first boot:&#xa;• apt install nginx nodejs npm git&#xa;• git clone react app&#xa;• npm install &amp;&amp; npm run build&#xa;• copy build to /var/www/html&#xa;• configure nginx for React routing&#xa;• systemctl restart nginx" vertex="1">
+          <mxGeometry height="120" width="380" x="160" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0078D4;fontColor=#0078D4;fontSize=10;align=center;verticalAlign=middle;fontStyle=1;" value="Nginx Web Server&#xa;Serves React build&#xa;from /var/www/html&#xa;&#xa;React App&#xa;http://&lt;public_ip&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="620" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;verticalAlign=middle;" value="SSH Key Pair&#xa;~/.ssh/id_rsa.pub&#xa;injected at boot" vertex="1">
+          <mxGeometry height="80" width="150" x="860" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-21" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;strokeWidth=2;fontStyle=1;fontSize=10;" target="VIowppfUMyqaFoo3780U-14" value="HTTP / SSH">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-22" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#b85450;strokeWidth=1.5;dashed=1;fontSize=9;" target="VIowppfUMyqaFoo3780U-11" value="Attached to subnet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-23" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#0078D4;strokeWidth=2;" target="VIowppfUMyqaFoo3780U-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-24" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#0078D4;strokeWidth=2;" target="VIowppfUMyqaFoo3780U-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-25" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#666666;strokeWidth=1.5;dashed=1;" target="VIowppfUMyqaFoo3780U-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-26" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=1.5;dashed=1;fontSize=9;" target="VIowppfUMyqaFoo3780U-18" value="runs on boot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-27" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#0078D4;strokeWidth=1.5;fontSize=9;" target="VIowppfUMyqaFoo3780U-19" value="deploys to">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIowppfUMyqaFoo3780U-28" edge="1" parent="1" source="VIowppfUMyqaFoo3780U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#d6b656;strokeWidth=1.5;dashed=1;fontSize=9;" target="VIowppfUMyqaFoo3780U-16" value="injected">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
